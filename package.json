@@ -1,0 +1,22 @@
+{
+  "name": "alive-node-server",
+  "version": "1.0.0",
+  "description": "A simple node app that response 'Alive' to all requests",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.js --name alive",
+    "stop": "pm2 stop app.js --name alive",
+    "restart": "pm2 restart app.js --name alive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Votion/alive-node-server.git"
+  },
+  "author": "Seamus P. H. Leahy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Votion/alive-node-server/issues"
+  },
+  "homepage": "https://github.com/Votion/alive-node-server#readme"
+}
