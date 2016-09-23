@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Votion/alive-node-server/issues"
   },
-  "homepage": "https://github.com/Votion/alive-node-server#readme"
+  "homepage": "https://github.com/Votion/alive-node-server#readme",
+  "dependencies": {
+    "pm2": "^2.0.15"
+  }
 }
