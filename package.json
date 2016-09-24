@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start app.js --name alive",
-    "stop": "pm2 stop app.js --name alive",
-    "restart": "pm2 restart app.js --name alive"
+    "start": "node app.js",
+    "stop": "node app.js",
+    "restart": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,5 @@
   },
   "homepage": "https://github.com/Votion/alive-node-server#readme",
   "dependencies": {
-    "pm2": "^2.0.15"
   }
 }
